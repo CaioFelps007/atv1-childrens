@@ -7,7 +7,6 @@ import Home from "./src/pages/Page";
 import Login from "./src/components/Buttons/LogInComponent";
 import ImageButton from "./src/components/Buttons/ImgComponent";
 import Signin from "./src/components/Buttons/SignInComponent";
-import { Children } from "react";
 
 // APP, onde será exibido os resultados dos components.  
 

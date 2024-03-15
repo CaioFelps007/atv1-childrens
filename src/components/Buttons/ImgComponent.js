@@ -11,6 +11,7 @@ export default function ImageButton() {
 
                 <Image style={estilos.imagembotao} source={imagembotao} />
 
+
             </TouchableOpacity>
         </View>
 
