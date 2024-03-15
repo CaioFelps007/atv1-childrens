@@ -7,6 +7,8 @@ import Home from "./src/pages/Page";
 import Login from "./src/components/Buttons/LogInComponent";
 import ImageButton from "./src/components/Buttons/ImgComponent";
 import Signin from "./src/components/Buttons/SignInComponent";
+import Props from "./src/components/Buttons/Propriedades/props";
+
 
 // APP, onde será exibido os resultados dos components.  
 
@@ -30,8 +32,11 @@ export default function App() {
         <TerceiroTxt />
         <Signin />
 
+
         {/* fechamento do component pai */}
       </Home>
+
+
 
     </View>
 

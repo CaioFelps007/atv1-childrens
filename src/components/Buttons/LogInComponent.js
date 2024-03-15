@@ -1,12 +1,14 @@
 import { View, TouchableOpacity, Text } from "react-native";
 import { estilos } from "../../styles/StyleSheet";
+import Props from "./Propriedades/props";
 
 export default function Login() {
+    btnfunction = () => {
+        alert("BOTAO CLICADO");
+    };
     return (
         <View>
-            <TouchableOpacity style={estilos.btn2} onPress={() => alert('Log In')}>
-                <Text style={estilos.title}> Log In</Text>
-            </TouchableOpacity>
+            <Props text="Login" fncbutton={btnfunction} />
         </View>
     )
 

@@ -75,7 +75,6 @@ export const estilos = StyleSheet.create({
     },
 
 
-
     title: {
         color: 'white',
     },
